@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Inter', sans-serif;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    color: #121212;
+}
+
+.common-subtitel {
+    color: #707070;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.btn-primary {
+    background: #FF5959;
+    border-radius: 5px;
+    color: #fff;
+    height: 56px;
+    padding: 16px 20px;
+    border: 0;
+}
+
+section {
+    padding-top: 130px;
+}
+
+/* banner part style start here */
+.banner {
+    background: url(../images/donation1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.banner::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+
+}
+
+.banner-text {
+    padding: 175px 200px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+
+.banner-text .common-subtitel {
+    color: #fff;
+    padding: 0 60px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.banner-titel {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    color: #fff;
+}
+
+/* donate style start here */
+.donate {
+    padding: 0 157px;
+}
+
+.donate-description {
+    text-align: center;
+}
+
+.common-titel {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54px;
+    padding-bottom: 20px;
+}
+
+.common-subtitel {
+    padding: 0 103px;
+}
+
+.donate-main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    gap: 24px;
+}
+
+.donate-items {
+    width: 136px;
+    height: 123px;
+    padding: 43px 23px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #707070;
+    transition: all linear .2s;
+}
+
+.donate-items:hover {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    color: #FF5959;
+}
+.small-text{
+    padding-top: 60px;
+}
+/* donate style end here */
+/* donate plan style start here */
+.donate-plan{
+    text-align: center;
+}
+/* donate paln style end here */
